@@ -23,4 +23,5 @@ int Multiply(int a, int b) {
 // the entry point does not need to be a main function.
 int main() {
     std::cout << Multiply(5, 8) << std::endl;
+    std::cin.get(); // a simple code to make sure that the console does not close immediately.
 }
